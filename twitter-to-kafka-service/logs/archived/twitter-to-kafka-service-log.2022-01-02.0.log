@@ -1,0 +1,187 @@
+2022-01-02 18:35:45 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 15.0.2 on Abdullahs-MacBook-Pro.local with PID 20942 (/Users/abdullahmohamed/Downloads/spring/twitter-to-kafka-service/target/classes started by abdullahmohamed in /Users/abdullahmohamed/Downloads/spring)
+2022-01-02 18:35:45 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-01-02 18:35:46 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.671 seconds (JVM running for 1.327)
+2022-01-02 18:35:46 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-01-02 18:35:46 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-01-02 18:37:16 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 15.0.2 on Abdullahs-MacBook-Pro.local with PID 20959 (/Users/abdullahmohamed/Downloads/spring/twitter-to-kafka-service/target/classes started by abdullahmohamed in /Users/abdullahmohamed/Downloads/spring)
+2022-01-02 18:37:16 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-01-02 18:37:16 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.586 seconds (JVM running for 1.203)
+2022-01-02 18:37:16 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-01-02 18:37:16 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-01-02 18:37:16 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices!
+2022-01-02 19:09:28 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 15.0.2 on Abdullahs-MacBook-Pro.local with PID 21381 (/Users/abdullahmohamed/Downloads/spring/twitter-to-kafka-service/target/classes started by abdullahmohamed in /Users/abdullahmohamed/Downloads/spring)
+2022-01-02 19:09:28 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-01-02 19:09:29 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.673 seconds (JVM running for 1.265)
+2022-01-02 19:09:29 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-01-02 19:09:29 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-01-02 19:09:29 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices!
+2022-01-02 19:09:29 INFO  [Twitter Stream consumer /  [1][initializing]] twitter4j.TwitterStreamImpl - Establishing connection.
+2022-01-02 19:09:29 INFO  [main] c.m.s.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-01-02 19:09:29 INFO  [Twitter Stream consumer /  [1][Establishing connection]] twitter4j.TwitterStreamImpl - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - You currently have Essential access which includes access to Twitter API v2 endpoints only. If you need access to this endpoint, you’ll need to apply for Elevated access via the Developer Portal. You can learn more here: https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api#v2-access-leve
+code - 453
+
+2022-01-02 19:09:29 WARN  [Twitter Stream consumer /  [1][Establishing connection]] twitter4j.TwitterStreamImpl - This account is not in required role. 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - You currently have Essential access which includes access to Twitter API v2 endpoints only. If you need access to this endpoint, you’ll need to apply for Elevated access via the Developer Portal. You can learn more here: https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api#v2-access-leve
+code - 453
+
+2022-01-02 19:12:01 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 15.0.2 on Abdullahs-MacBook-Pro.local with PID 21413 (/Users/abdullahmohamed/Downloads/spring/twitter-to-kafka-service/target/classes started by abdullahmohamed in /Users/abdullahmohamed/Downloads/spring)
+2022-01-02 19:12:01 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-01-02 19:12:02 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.556 seconds (JVM running for 1.165)
+2022-01-02 19:12:02 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-01-02 19:12:02 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-01-02 19:12:02 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices!
+2022-01-02 19:12:02 INFO  [Twitter Stream consumer-1[initializing]] twitter4j.TwitterStreamImpl - Establishing connection.
+2022-01-02 19:12:02 INFO  [main] c.m.s.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-01-02 19:12:02 INFO  [Twitter Stream consumer-1[Establishing connection]] twitter4j.TwitterStreamImpl - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - You currently have Essential access which includes access to Twitter API v2 endpoints only. If you need access to this endpoint, you’ll need to apply for Elevated access via the Developer Portal. You can learn more here: https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api#v2-access-leve
+code - 453
+
+2022-01-02 19:12:02 WARN  [Twitter Stream consumer-1[Establishing connection]] twitter4j.TwitterStreamImpl - This account is not in required role. 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - You currently have Essential access which includes access to Twitter API v2 endpoints only. If you need access to this endpoint, you’ll need to apply for Elevated access via the Developer Portal. You can learn more here: https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api#v2-access-leve
+code - 453
+
+2022-01-02 19:15:11 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 15.0.2 on Abdullahs-MacBook-Pro.local with PID 21473 (/Users/abdullahmohamed/Downloads/spring/twitter-to-kafka-service/target/classes started by abdullahmohamed in /Users/abdullahmohamed/Downloads/spring)
+2022-01-02 19:15:11 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-01-02 19:15:12 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.567 seconds (JVM running for 1.229)
+2022-01-02 19:15:12 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-01-02 19:15:12 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-01-02 19:15:12 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices!
+2022-01-02 19:15:12 INFO  [Twitter Stream consumer-1[initializing]] twitter4j.TwitterStreamImpl - Establishing connection.
+2022-01-02 19:15:12 INFO  [main] c.m.s.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-01-02 19:15:12 INFO  [Twitter Stream consumer-1[Establishing connection]] twitter4j.TwitterStreamImpl - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - You currently have Essential access which includes access to Twitter API v2 endpoints only. If you need access to this endpoint, you’ll need to apply for Elevated access via the Developer Portal. You can learn more here: https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api#v2-access-leve
+code - 453
+
+2022-01-02 19:15:12 WARN  [Twitter Stream consumer-1[Establishing connection]] twitter4j.TwitterStreamImpl - This account is not in required role. 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - You currently have Essential access which includes access to Twitter API v2 endpoints only. If you need access to this endpoint, you’ll need to apply for Elevated access via the Developer Portal. You can learn more here: https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api#v2-access-leve
+code - 453
+
+2022-01-02 19:19:53 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 15.0.2 on Abdullahs-MacBook-Pro.local with PID 21506 (/Users/abdullahmohamed/Downloads/spring/twitter-to-kafka-service/target/classes started by abdullahmohamed in /Users/abdullahmohamed/Downloads/spring)
+2022-01-02 19:19:53 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-01-02 19:19:53 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.634 seconds (JVM running for 1.284)
+2022-01-02 19:19:53 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-01-02 19:19:53 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-01-02 19:19:53 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices!
+2022-01-02 19:19:53 INFO  [Twitter Stream consumer-1[initializing]] twitter4j.TwitterStreamImpl - Establishing connection.
+2022-01-02 19:19:53 INFO  [main] c.m.s.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-01-02 19:19:54 INFO  [Twitter Stream consumer-1[Establishing connection]] twitter4j.TwitterStreamImpl - Connection established.
+2022-01-02 19:19:54 INFO  [Twitter Stream consumer-1[Establishing connection]] twitter4j.TwitterStreamImpl - Receiving status stream.
+2022-01-02 19:19:54 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @NAHTnews: Education unions @NAHTnews @ASCL_UK @GMB_union @NASUWT @NEUnion & @unisontheunion call for more government support to tackle…
+2022-01-02 19:19:55 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @btsconcerthrs: thinking about yoongi leaning onto jimin during spring day https://t.co/8ghl9G2m7Q
+2022-01-02 19:19:55 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @MariahTrends: Coming in Spring: @MariahCarey teaches a @MasterClass on Songwriting and Production. https://t.co/RdGNUmoOLh
+2022-01-02 19:19:57 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Sozyuku: Franz Kafka’nın “Delirmenin eşiğindeyim.” dediği yerdeyim..
+2022-01-02 19:19:58 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @nonfungiblejawn: i’m staying at the hotel she’s staying at and apparently, @Mochievous refused to pay her bill after opting to extend h…
+2022-01-02 19:19:58 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @cloudpreacher: Explore the mechanics of #datascience with this #infographic! 
+
+MT @ascentt #BigData #Analytics #AI #IoT #IIoT #PyTorch…
+2022-01-02 19:19:59 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @cloudpreacher: Explore the mechanics of #datascience with this #infographic! 
+
+MT @ascentt #BigData #Analytics #AI #IoT #IIoT #PyTorch…
+2022-01-02 19:20:06 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text The way I’m bout to join with no musical talent
+2022-01-02 19:20:07 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Today’s top news in #Bali: Two East Java Omicron cases holidayed in Bali + Govt increases quarantine for some Indon… https://t.co/vJ06CP4h22
+2022-01-02 19:20:08 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @gp_pulipaka: Free Crash Course on #MachineLearning at Berkeley University. #BigData #Analytics #DataScience #AI #IoT #IIoT #Python #RSt…
+2022-01-02 19:20:08 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ランキング:16位 (家電)
+
+ヒーター 人感センサー 足元 セラミックファンヒーター パネルヒーター 電気ヒーター セラミックヒ......(09:20)
+
+https://t.co/K8CCVByC0r
+2022-01-02 19:20:10 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @lepetitfallon: already thinking about spring sorry https://t.co/94D9tRv34b
+2022-01-02 19:20:13 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Deputies said one of the two 13-year-old girls in the backseat wasn't wearing a seatbelt and was ejected. Both girl… https://t.co/ieCvFVVW8N
+2022-01-02 19:20:13 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @gp_pulipaka: Free Crash Course on #MachineLearning at Berkeley University. #BigData #Analytics #DataScience #AI #IoT #IIoT #Python #RSt…
+2022-01-02 19:20:13 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @gp_pulipaka: Free Crash Course on #MachineLearning at Berkeley University. #BigData #Analytics #DataScience #AI #IoT #IIoT #Python #RSt…
+2022-01-02 19:20:14 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text spring illustrated antique silver https://t.co/kCvZuQ1uj3 via @EtsySocial #etsy #etsyfinds #whimsicalart… https://t.co/IDGVfFBjp8
+2022-01-02 19:20:14 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @WajdiKayal3: SENIOR HTML/CSS DEVELOPER WORDPRESS
+#Job 
+#hiring
+#Programming
+#DigitalMarketing
+#cybersecurity #MachineLearning #100DaysO…
+2022-01-02 19:20:16 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @btsconcerthrs: thinking about yoongi leaning onto jimin during spring day https://t.co/8ghl9G2m7Q
+2022-01-02 19:49:47 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 15.0.2 on Abdullahs-MacBook-Pro.local with PID 21883 (/Users/abdullahmohamed/Downloads/spring/twitter-to-kafka-service/target/classes started by abdullahmohamed in /Users/abdullahmohamed/Downloads/spring)
+2022-01-02 19:49:47 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-01-02 19:49:47 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.654 seconds (JVM running for 1.256)
+2022-01-02 19:49:47 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-01-02 19:49:47 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-01-02 19:49:47 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices!
+2022-01-02 19:49:47 INFO  [Twitter Stream consumer-1[initializing]] twitter4j.TwitterStreamImpl - Establishing connection.
+2022-01-02 19:49:47 INFO  [main] c.m.s.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-01-02 19:49:50 INFO  [Twitter Stream consumer-1[Establishing connection]] twitter4j.TwitterStreamImpl - Connection established.
+2022-01-02 19:49:50 INFO  [Twitter Stream consumer-1[Establishing connection]] twitter4j.TwitterStreamImpl - Receiving status stream.
+2022-01-02 19:49:50 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @DailyWaffle: 30 Wedding Beauty Trends Predictions for Winter 2021 and Spring 2022 https://t.co/VDwz1V2oC4
+
+@BloggersHut #BloggersHutRT…
+2022-01-02 19:49:51 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text I would let someone punch me in the face tonight if it meant we could skip straight to spring
+2022-01-02 19:49:52 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Good time to return to Kafka
+2022-01-02 19:49:52 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text わぁあ、なにこれ！😶
+ありがとうございます🥺🥺🥺❣️
+2022-01-02 19:49:52 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @kevinmu76333681: Check Out @ORESystemNFT $ORE
+
+#javascript
+#Xbox 
+#coding 
+#UnrealEngine 
+#GameFi 
+#nftgames 
+#CSS
+#Java
+#CodeRedForHum…
+2022-01-02 19:49:53 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @galuga @PatrickMuyaya @BenBryant_M Kafkaïen essoufflé que tu es !
+2022-01-02 19:49:53 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Here in SC the weather has been balmy for the past few days. Warm, humid and  wet. Tomorrow it will be.cold again.… https://t.co/LM5XYTn11A
+2022-01-02 19:49:53 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @schikanza: Musicians, if you make mistake of including Passion Java in your music, no one will take you seriously.
+2022-01-02 19:49:56 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @Klotzenstein21 Ima get back on my shit this week I was waiting on my job schedule I got it now I’m bout to get to… https://t.co/MYBCkug3WI
+2022-01-02 19:49:56 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Academics_team: Pay academic experts to help you write your 
+#Essay
+#Assignment
+#Homework 
+#Project
+#Dissertation
+#Thesis
+#Javascript
+#…
+2022-01-02 19:49:56 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @kevinmu76333681: Check Out @ORESystemNFT $ORE
+
+#javascript
+#Xbox 
+#coding 
+#UnrealEngine 
+#GameFi 
+#nftgames 
+#CSS
+#Java
+#CodeRedForHum…
+2022-01-02 19:49:57 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @ElJigokuwu Jsjsjsj por mi increible experiencia leyendo su obra, ws decir, la mitad de Kafka en la orilla, tambien… https://t.co/Xq9JqDtEt6
+2022-01-02 19:49:58 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text As long as the spring festival continues, I will stay here. Even if that's forever...
+2022-01-02 20:37:19 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 15.0.2 on Abdullahs-MacBook-Pro.local with PID 22214 (/Users/abdullahmohamed/Downloads/spring/twitter-to-kafka-service/target/classes started by abdullahmohamed in /Users/abdullahmohamed/Downloads/spring)
+2022-01-02 20:37:19 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-01-02 20:37:20 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.636 seconds (JVM running for 1.296)
+2022-01-02 20:37:20 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-01-02 20:37:20 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-01-02 20:37:20 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices!
+2022-01-02 20:37:20 INFO  [Twitter Stream consumer-1[initializing]] twitter4j.TwitterStreamImpl - Establishing connection.
+2022-01-02 20:37:20 INFO  [main] c.m.s.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-01-02 20:37:21 INFO  [Twitter Stream consumer-1[Establishing connection]] twitter4j.TwitterStreamImpl - Connection established.
+2022-01-02 20:37:21 INFO  [Twitter Stream consumer-1[Establishing connection]] twitter4j.TwitterStreamImpl - Receiving status stream.
+2022-01-02 20:37:21 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text alguém bota isso no yeonjun pfvr
+2022-01-02 20:37:21 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Olha essa dica
+2022-01-02 20:37:21 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @t3lmprogramming: ازاى تأسس نفسك صح فى البرمجة.
+- اﻻول هتكلم عن مرحلة التاهيل, وده خاصة لو انت مش متخصص Computer science, وهقسمهم اﻻجابا…
+2022-01-02 20:37:21 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @MarquetteUnion: As we wait to hear what happens this spring, we wonder once again if the administration will consult any faculty, staff…
+2022-01-02 20:37:21 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @CryptoKing1st: $300 GIVEAWAY IN 72 HOURS
+
+- RT & Follow @Madworldnft
+
+-----------------------------
+Go to https://t.co/ItYzwGFhg1 and M…
+2022-01-02 20:37:22 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Spring 22’ Graduated *tears already coming down 😭
+2022-01-02 20:37:23 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text That is impressive. It's also impressive that covid is infecting more people than ever.
+Earlier projections/specula… https://t.co/jHLpegYKaz
+2022-01-02 20:37:23 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @charm1_charm: All the beauty of the spring went for hap
+
+انسخ الكود :LCS92: https://t.co/ROsqVpcKfK
+2022-01-02 20:37:26 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @_freddin: ☀︎ livros lidos em 2022 - thread
+
+“Apenas deveríamos ler os livros que nos picam e que nos mordem. Se o livro que lemos não n…
+2022-01-02 20:37:26 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @AmberMcReynolds: USPS should start delivering at-home covid tests every 2 wks to every household from now through spring. Can we do thi…
+2022-01-02 20:37:29 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Mochievous: urgent: I called the Kenyan Police Service to report an assault that happened to me at my hotel & instead they have detaine…
+2022-01-02 20:37:29 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Osmanjohn10: #cybersecurity #computerengineering #Iot #Ai #computerscience #hacking #hacker  #pentest #tech #code #coding #python #php…
