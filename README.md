@@ -20,3 +20,7 @@ Steps to run docker compose:
 - `kcat -C -b brokers -t topic`: View messages sent to a particular topic by a specific broker
 - `kcat -L -b brokers`: List metadata for all topics and brokers
 - `kcat -L -b brokers -t topic`: List metadata for a specific topic 
+
+## Maven Commands
+
+Note: Before running any `mvn install` commands make sure to have a local kafka cluster running or else tests will fail (since the tests check whether any kafka instances are running). Alternatively you can use `mvn install -DskipTests` option.
