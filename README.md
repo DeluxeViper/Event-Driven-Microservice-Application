@@ -13,3 +13,10 @@ Steps to run docker compose:
 2. run: `kafkacat -L -b localhost:19092` OR run: `docker run -it --network=host confluentinc/cp-kafkacat kafkacat -L -b localhost:19092`
     - Note that on MacoS if you've installed `kafkacat` through brew, you'll be using `kcat` instead of `kafkacat` as the command
 3. more info about the *confluentinc/cp-kafka* docker image: https://hub.docker.com/r/confluentinc/cp-kafka
+
+
+###### Kafkacat commands
+
+- `kcat -C -b brokers -t topic`: View messages sent to a particular topic by a specific broker
+- `kcat -L -b brokers`: List metadata for all topics and brokers
+- `kcat -L -b brokers -t topic`: List metadata for a specific topic 
