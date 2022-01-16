@@ -1,6 +1,8 @@
 # Event-Driven-Microservice-Application
 An Event Driven Microservices application.
 
+**Note** that in order to run this application, you need to contain the environment variable of the JASYPT_ENCRYPTOR_PASSWORD.
+
 ## Docker Compose
 
 Steps to run docker compose:
