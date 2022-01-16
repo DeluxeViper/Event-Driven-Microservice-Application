@@ -5,7 +5,8 @@ An Event Driven Microservices application.
 
 Steps to run docker compose:
 1. cd into docker-compose directory
-2. run: `docker-compose -f common.yml -f kafka_cluster.yml up`
+2. run: `docker-compose up` OR `docker-compose -f common.yml -f kafka_cluster.yml -f services.yml`
+3. note: to run specific yaml files (for instance the services.yml file) run `docker-compose -f common.yml -f services.yml`
 
 ###### To view list of brokers and topics:
 
