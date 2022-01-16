@@ -16,7 +16,7 @@ spring:
         git:
           uri: https://github.com/DeluxeViper/spring-cloud-config-server-repository
           username: DeluxeViper
-          password: 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
+          password: '{cipher}77870241fcebef3fd7707fb9990b7d292da627cc16b6d57dcfa0bb5a72bc118ef23fff3d54e260cf9bc13e0d4962b4b592dee97d2691ea4a61cf75fe51dc8231'
           clone-on-start: true # clone the repository on start
           default-label: main
 
@@ -25,4 +25,7 @@ spring:
   security:
     user:
       name: spring_cloud_user
-      password: springCloud_Pwd!
+      password: '{cipher}ed287df5d9456fd7a84f2d8c0764a07712dc34091410de69899d3bdb3de161f3ee88c75a1f37d5bb3674effdeb938317'
+
+encrypt:
+  key: 'Demo_Pwd!2021'

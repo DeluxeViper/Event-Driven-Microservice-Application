@@ -4305,3 +4305,271 @@ Franz Kafka sending to kafka topic twitter-topic
 2022-01-16 14:28:03 INFO  [kafka-admin-client-thread | adminclient-1] o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
 2022-01-16 14:28:03 INFO  [kafka-admin-client-thread | adminclient-1] o.a.kafka.common.metrics.Metrics - Metrics reporters closed
 2022-01-16 14:28:03 INFO  [Twitter Stream consumer-1[Receiving stream]] twitter4j.TwitterStreamImpl - Task twitter4j.StatusStreamBase$1@7fb608d9 rejected from java.util.concurrent.ThreadPoolExecutor@2bf0a190[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 206]
+2022-01-16 18:32:02 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 15.0.2 on Abdullahs-MacBook-Pro.local with PID 7118 (/Users/abdullahmohamed/Downloads/spring/twitter-to-kafka-service/target/classes started by abdullahmohamed in /Users/abdullahmohamed/Downloads/spring)
+2022-01-16 18:32:02 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - The following profiles are active: twitter_to_kafka
+2022-01-16 18:32:02 INFO  [main] o.s.b.c.config.ConfigDataLoader - Fetching config from server at : http://localhost:8888
+2022-01-16 18:32:02 INFO  [main] o.s.b.c.config.ConfigDataLoader - Located environment: name=twitter-to-kafka-service,config-client, profiles=[twitter_to_kafka], label=null, version=9c4986c78606fd520fd7569e715f4e4a806b3649, state=null
+2022-01-16 18:32:03 INFO  [main] o.s.cloud.context.scope.GenericScope - BeanFactory id=538beb8d-9c8a-39db-a5ec-45d26b3a0a40
+2022-01-16 18:32:03 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-16 18:32:03 INFO  [main] o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2022-01-16 18:32:03 INFO  [main] o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.0.0
+2022-01-16 18:32:03 INFO  [main] o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8cb0a5e9d3441962
+2022-01-16 18:32:03 INFO  [main] o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1642375923450
+2022-01-16 18:32:03 INFO  [main] o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 81606f15-dead-4678-8e53-c40ca7b0fdb0
+
+2022-01-16 18:32:04 INFO  [main] o.s.b.w.e.netty.NettyWebServer - Netty started on port 8080
+2022-01-16 18:32:04 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 2.979 seconds (JVM running for 3.501)
+2022-01-16 18:32:04 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-01-16 18:32:04 INFO  [main] c.m.s.k.a.c.client.KafkaAdminClient - Creating 1 topic(s), attempt 0
+2022-01-16 18:32:04 INFO  [main] c.m.s.k.a.c.client.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2022-01-16 18:32:04 INFO  [main] c.m.s.t.t.k.s.i.i.KafkaStreamInitializer - Topics with name twitter-topic is ready for operations!
+2022-01-16 18:32:04 INFO  [main] c.m.s.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-01-16 18:32:04 INFO  [Twitter Stream consumer-1[initializing]] twitter4j.TwitterStreamImpl - Establishing connection.
+2022-01-16 18:32:05 INFO  [Twitter Stream consumer-1[Establishing connection]] twitter4j.TwitterStreamImpl - Connection established.
+2022-01-16 18:32:05 INFO  [Twitter Stream consumer-1[Establishing connection]] twitter4j.TwitterStreamImpl - Receiving status stream.
+2022-01-16 18:32:05 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text 60% sending to kafka topic twitter-topic
+2022-01-16 18:32:05 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 1017548533279404033, "id": 1482858204547760134, "text": "60%", "createdAt": 1642375920000}' to topic='twitter-topic'
+2022-01-16 18:32:05 INFO  [Twitter4J Async Dispatcher[0]] o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 1638400
+	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = snappy
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.LongSerializer
+	linger.ms = 5
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 60000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class io.confluent.kafka.serializers.KafkaAvroSerializer
+
+2022-01-16 18:32:05 INFO  [Twitter4J Async Dispatcher[0]] i.c.k.s.KafkaAvroSerializerConfig - KafkaAvroSerializerConfig values: 
+	bearer.auth.token = [hidden]
+	schema.registry.url = [http://localhost:8081]
+	basic.auth.user.info = [hidden]
+	auto.register.schemas = true
+	max.schemas.per.subject = 1000
+	basic.auth.credentials.source = URL
+	schema.registry.basic.auth.user.info = [hidden]
+	bearer.auth.credentials.source = STATIC_TOKEN
+	value.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+	key.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+
+2022-01-16 18:32:05 INFO  [Twitter4J Async Dispatcher[0]] o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.0.0
+2022-01-16 18:32:05 INFO  [Twitter4J Async Dispatcher[0]] o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8cb0a5e9d3441962
+2022-01-16 18:32:05 INFO  [Twitter4J Async Dispatcher[0]] o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1642375925959
+2022-01-16 18:32:05 INFO  [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: xFK0HMSaTaCl_s7NV_dwlA
+2022-01-16 18:32:06 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text @I_LUVKOOK Spring day 
+#KOREAQUEST_JHOPE @BTS_twt sending to kafka topic twitter-topic
+2022-01-16 18:32:06 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 1233754583307939840, "id": 1482858206296563715, "text": "@I_LUVKOOK Spring day \n#KOREAQUEST_JHOPE @BTS_twt", "createdAt": 1642375921000}' to topic='twitter-topic'
+2022-01-16 18:32:07 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text "Miss Suzy, who is bright like a spring flowers"
+
+ https://t.co/pZ6yoKcZLk sending to kafka topic twitter-topic
+2022-01-16 18:32:07 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 264097123, "id": 1482858210180894720, "text": "\"Miss Suzy, who is bright like a spring flowers\"\n\n https://t.co/pZ6yoKcZLk", "createdAt": 1642375922000}' to topic='twitter-topic'
+2022-01-16 18:32:07 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text @lelebtslove @BTS_twt Spring day
+#KOREAQUEST_JHOPE
+@BTS_twt sending to kafka topic twitter-topic
+2022-01-16 18:32:07 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 283265747, "id": 1482858211522883586, "text": "@lelebtslove @BTS_twt Spring day\n#KOREAQUEST_JHOPE\n@BTS_twt", "createdAt": 1642375922000}' to topic='twitter-topic'
+2022-01-16 18:32:08 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text RT @jsb_0214: RAGE Shadowverse 2022 Spring
+3回目の参加でday2進出出来た!!
+
+E 5-3 D 5-1
+
+2-1
+2-0
+0-2
+2-0
+2-0
+2-1
+
+エルフが上手くプレイ出来てラティカ3回決まった!!ドラゴンは最後まで信じて良… sending to kafka topic twitter-topic
+2022-01-16 18:32:08 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 3294628795, "id": 1482858215872561154, "text": "RT @jsb_0214: RAGE Shadowverse 2022 Spring\n3回目の参加でday2進出出来た!!\n\nE 5-3 D 5-1\n\n2-1\n2-0\n0-2\n2-0\n2-0\n2-1\n\nエルフが上手くプレイ出来てラティカ3回決まった!!ドラゴンは最後まで信じて良\u2026", "createdAt": 1642375923000}' to topic='twitter-topic'
+2022-01-16 18:32:08 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text 60% no lloro 
+
+#KOREAQUEST_JHOPE  @BTS_twt sending to kafka topic twitter-topic
+2022-01-16 18:32:08 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 1429468636218105857, "id": 1482858216929255427, "text": "60% no lloro \n\n#KOREAQUEST_JHOPE  @BTS_twt", "createdAt": 1642375923000}' to topic='twitter-topic'
+2022-01-16 18:32:10 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text @ConnorDubzinski @WRHSFBCoach I got two of em from when we ran the wing T this spring season lol! sending to kafka topic twitter-topic
+2022-01-16 18:32:10 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 888551706761601029, "id": 1482858223522693127, "text": "@ConnorDubzinski @WRHSFBCoach I got two of em from when we ran the wing T this spring season lol!", "createdAt": 1642375925000}' to topic='twitter-topic'
+2022-01-16 18:32:10 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text @kossy2010 PHPやJavaなどWebオープン系のシステム開発経験がある方
+
+全く意味がわかりません🤪 sending to kafka topic twitter-topic
+2022-01-16 18:32:10 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 602577807, "id": 1482858224244387840, "text": "@kossy2010 PHPやJavaなどWebオープン系のシステム開発経験がある方\n\n全く意味がわかりません🤪", "createdAt": 1642375925000}' to topic='twitter-topic'
+2022-01-16 18:32:11 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text 楽天オススメ★《JaVaジャバ コラボ》送料無料 レディース 大きいサイズ アウター ジャケット オーバーサイズ ゆったり コットン 中綿 キルティング ミドル丈 ユニセックス 男女兼用 ベージュ ブラック オリーブ デニム  https://t.co/0xOuHrafQJ sending to kafka topic twitter-topic
+2022-01-16 18:32:11 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 1361318420520660996, "id": 1482858227721474048, "text": "楽天オススメ★《JaVaジャバ コラボ》送料無料 レディース 大きいサイズ アウター ジャケット オーバーサイズ ゆったり コットン 中綿 キルティング ミドル丈 ユニセックス 男女兼用 ベージュ ブラック オリーブ デニム  https://t.co/0xOuHrafQJ", "createdAt": 1642375926000}' to topic='twitter-topic'
+2022-01-16 18:32:11 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text Spring and summer in winter 😍
+
+#KimTaeri #NamJoohyuk sending to kafka topic twitter-topic
+2022-01-16 18:32:11 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 1315545977017692162, "id": 1482858229801840642, "text": "Spring and summer in winter 😍\n\n#KimTaeri #NamJoohyuk", "createdAt": 1642375926000}' to topic='twitter-topic'
+2022-01-16 18:32:13 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text @ianjamesyoung70 Redwing Blackbirds have some of my favorite calls, they always make me think of spring. sending to kafka topic twitter-topic
+2022-01-16 18:32:13 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 290919528, "id": 1482858237510754308, "text": "@ianjamesyoung70 Redwing Blackbirds have some of my favorite calls, they always make me think of spring.", "createdAt": 1642375928000}' to topic='twitter-topic'
+2022-01-16 18:32:14 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text 2022 hitting me with small inconveniences, tested positive for covid despite always staying home and being cautious… https://t.co/J5vdMLmWQS sending to kafka topic twitter-topic
+2022-01-16 18:32:14 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 1406513917069717506, "id": 1482858239771365377, "text": "2022 hitting me with small inconveniences, tested positive for covid despite always staying home and being cautious\u2026 https://t.co/J5vdMLmWQS", "createdAt": 1642375929000}' to topic='twitter-topic'
+2022-01-16 18:32:15 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text RT @Femisonic: Hey Devs Take This Survey & Win A Macbook
+https://t.co/RLKrSgjmK0
+
+#Programming
+#cybersecurity #MachineLearning #100DaysOfCo… sending to kafka topic twitter-topic
+2022-01-16 18:32:15 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 1269506162388426752, "id": 1482858246541135879, "text": "RT @Femisonic: Hey Devs Take This Survey & Win A Macbook\nhttps://t.co/RLKrSgjmK0\n\n#Programming\n#cybersecurity #MachineLearning #100DaysOfCo\u2026", "createdAt": 1642375930000}' to topic='twitter-topic'
+2022-01-16 18:32:16 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text RT @hanadahajime_: I was thonking of Maxie ancestor.... idk what to name her waaaa but she runs a hot spring bathhouse https://t.co/iTNNujn… sending to kafka topic twitter-topic
+2022-01-16 18:32:16 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 2884589334, "id": 1482858247929356291, "text": "RT @hanadahajime_: I was thonking of Maxie ancestor.... idk what to name her waaaa but she runs a hot spring bathhouse https://t.co/iTNNujn\u2026", "createdAt": 1642375931000}' to topic='twitter-topic'
+2022-01-16 18:32:16 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text That’s why you gotta get Irish Spring sending to kafka topic twitter-topic
+2022-01-16 18:32:16 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 817116417397059584, "id": 1482858249955299342, "text": "That\u2019s why you gotta get Irish Spring", "createdAt": 1642375931000}' to topic='twitter-topic'
+2022-01-16 18:32:17 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text RT @LondonPaeds: Calling London Paediatrics trainees! Book to join our LSP QI education programme Spring cohort TODAY. https://t.co/z93SB13… sending to kafka topic twitter-topic
+2022-01-16 18:32:17 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 21862877, "id": 1482858252761124866, "text": "RT @LondonPaeds: Calling London Paediatrics trainees! Book to join our LSP QI education programme Spring cohort TODAY. https://t.co/z93SB13\u2026", "createdAt": 1642375932000}' to topic='twitter-topic'
+2022-01-16 18:32:18 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text RT @Melimeli_sv: RAGE Shadowverse 2022 Spring
+初めてDay2進出できました！
+Nm 6-2
+V     5-1
+初戦敗北して狂乱の持ち込み失敗したと思ったけど気持ち切り替えられてよかった！ https://t.co/YIkjuqys… sending to kafka topic twitter-topic
+2022-01-16 18:32:18 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 3294628795, "id": 1482858252811792385, "text": "RT @Melimeli_sv: RAGE Shadowverse 2022 Spring\n初めてDay2進出できました！\nNm 6-2\nV     5-1\n初戦敗北して狂乱の持ち込み失敗したと思ったけど気持ち切り替えられてよかった！ https://t.co/YIkjuqys\u2026", "createdAt": 1642375932000}' to topic='twitter-topic'
+2022-01-16 18:32:18 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text RT @InqPOP: Global superstar Jackson Wang successfully transitions from an athlete into the world of music, turning the sabre in his hand i… sending to kafka topic twitter-topic
+2022-01-16 18:32:18 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 1436801806626136065, "id": 1482858256397746188, "text": "RT @InqPOP: Global superstar Jackson Wang successfully transitions from an athlete into the world of music, turning the sabre in his hand i\u2026", "createdAt": 1642375933000}' to topic='twitter-topic'
+2022-01-16 18:32:19 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text 50% sending to kafka topic twitter-topic
+2022-01-16 18:32:19 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 1050170672528404486, "id": 1482858261531537414, "text": "50%", "createdAt": 1642375934000}' to topic='twitter-topic'
+2022-01-16 18:32:19 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text 🧵2/2
+
+El grupo Telegram oficial de la comunidad de #data más grande y chévere de todas ;)
+
+https://t.co/x5Nuanf6mz… https://t.co/Z4Q41Pz683 sending to kafka topic twitter-topic
+2022-01-16 18:32:19 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 1439455184133009416, "id": 1482858262856929283, "text": "🧵2/2\n\nEl grupo Telegram oficial de la comunidad de #data más grande y chévere de todas ;)\n\nhttps://t.co/x5Nuanf6mz\u2026 https://t.co/Z4Q41Pz683", "createdAt": 1642375934000}' to topic='twitter-topic'
+2022-01-16 18:32:20 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text RT @rhemajoybell: 🗞 @ntdaily is looking for writers, photographers and illustrators for the spring semester. 
+
+any experience level and maj… sending to kafka topic twitter-topic
+2022-01-16 18:32:20 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 1273784901393944576, "id": 1482858265537130498, "text": "RT @rhemajoybell: 🗞 @ntdaily is looking for writers, photographers and illustrators for the spring semester. \n\nany experience level and maj\u2026", "createdAt": 1642375935000}' to topic='twitter-topic'
+2022-01-16 18:32:20 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text @FloosWorld @MorleyGamesYT Once the spring update comes around I can asure you that at least my pc won't be shut do… https://t.co/lI0Ne12WfL sending to kafka topic twitter-topic
+2022-01-16 18:32:20 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 837114412246908929, "id": 1482858267189682178, "text": "@FloosWorld @MorleyGamesYT Once the spring update comes around I can asure you that at least my pc won't be shut do\u2026 https://t.co/lI0Ne12WfL", "createdAt": 1642375935000}' to topic='twitter-topic'
+2022-01-16 18:32:21 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text A new Season of a new year is upon us! And nothing gets us more excited about the new year than the Spring Time Flo… https://t.co/Kr9qVIJrhu sending to kafka topic twitter-topic
+2022-01-16 18:32:21 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 1355203703456849921, "id": 1482858267772657665, "text": "A new Season of a new year is upon us! And nothing gets us more excited about the new year than the Spring Time Flo\u2026 https://t.co/Kr9qVIJrhu", "createdAt": 1642375935000}' to topic='twitter-topic'
+2022-01-16 18:32:24 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text Expeditiously 🤧 sending to kafka topic twitter-topic
+2022-01-16 18:32:24 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 42807495, "id": 1482858282012360704, "text": "Expeditiously 🤧", "createdAt": 1642375939000}' to topic='twitter-topic'
+2022-01-16 18:32:24 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text @lelebtslove @BTS_twt spring day
+#KOREAQUEST_JHOPE @BTS_tw sending to kafka topic twitter-topic
+2022-01-16 18:32:24 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 1407715064648552448, "id": 1482858282876297217, "text": "@lelebtslove @BTS_twt spring day\n#KOREAQUEST_JHOPE @BTS_tw", "createdAt": 1642375939000}' to topic='twitter-topic'
+2022-01-16 18:32:26 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Received status text RT @livvviiaaa: dior at Paris Fashion Week Spring 2017 https://t.co/vl17f9mJVo sending to kafka topic twitter-topic
+2022-01-16 18:32:26 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.k.p.s.i.TwitterKafkaProducer - Sending message='{"userId": 786218897523355648, "id": 1482858291181101061, "text": "RT @livvviiaaa: dior at Paris Fashion Week Spring 2017 https://t.co/vl17f9mJVo", "createdAt": 1642375941000}' to topic='twitter-topic'
+2022-01-16 18:32:26 INFO  [SpringApplicationShutdownHook] c.m.s.k.p.s.i.TwitterKafkaProducer - Closing kafka producer!
+2022-01-16 18:32:26 INFO  [SpringApplicationShutdownHook] o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2022-01-16 18:32:26 INFO  [SpringApplicationShutdownHook] o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-01-16 18:32:26 INFO  [SpringApplicationShutdownHook] o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-01-16 18:32:26 INFO  [SpringApplicationShutdownHook] o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-01-16 18:32:26 INFO  [SpringApplicationShutdownHook] o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for producer-1 unregistered
+2022-01-16 18:32:26 INFO  [kafka-admin-client-thread | adminclient-1] o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2022-01-16 18:32:26 INFO  [kafka-admin-client-thread | adminclient-1] o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-01-16 18:32:26 INFO  [kafka-admin-client-thread | adminclient-1] o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-01-16 18:32:26 INFO  [kafka-admin-client-thread | adminclient-1] o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-01-16 18:32:27 INFO  [Twitter Stream consumer-1[Receiving stream]] twitter4j.TwitterStreamImpl - Task twitter4j.StatusStreamBase$1@63d034b3 rejected from java.util.concurrent.ThreadPoolExecutor@7a73f2e6[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 26]
