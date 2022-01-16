@@ -167,7 +167,6 @@
                 <version>${maven-compiler-plugin.version}</version>
                 <configuration>
                     <release>11</release>
-                    <proc>none</proc>
                 </configuration>
             </plugin>
         </plugins>

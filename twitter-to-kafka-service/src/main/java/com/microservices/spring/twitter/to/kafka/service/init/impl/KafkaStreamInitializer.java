@@ -12,9 +12,9 @@ public class KafkaStreamInitializer implements StreamInitializer {
 
     private static final Logger LOG = LoggerFactory.getLogger(KafkaStreamInitializer.class);
 
-    private KafkaConfigData kafkaConfigData;
+    private final KafkaConfigData kafkaConfigData;
 
-    private KafkaAdminClient kafkaAdminClient;
+    private final KafkaAdminClient kafkaAdminClient;
 
     public KafkaStreamInitializer(KafkaConfigData kafkaConfigData, KafkaAdminClient kafkaAdminClient) {
         this.kafkaConfigData = kafkaConfigData;
@@ -26,6 +26,5 @@ public class KafkaStreamInitializer implements StreamInitializer {
         kafkaAdminClient.createTopics();
         kafkaAdminClient.checkSchemaRegistry();
         LOG.info("Topics with name {} is ready for operations!", kafkaConfigData.getTopicNamesToCreate().toArray());
-
     }
 }

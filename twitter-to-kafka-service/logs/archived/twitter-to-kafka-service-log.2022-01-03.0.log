@@ -1,0 +1,25 @@
+2022-01-03 15:09:37 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 15.0.2 on Abdullahs-MacBook-Pro.local with PID 27656 (/Users/abdullahmohamed/Downloads/spring/twitter-to-kafka-service/target/classes started by abdullahmohamed in /Users/abdullahmohamed/Downloads/spring)
+2022-01-03 15:09:37 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-01-03 15:09:38 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.885 seconds (JVM running for 1.547)
+2022-01-03 15:09:38 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-01-03 15:09:38 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-01-03 15:09:38 INFO  [main] c.m.s.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices!
+2022-01-03 15:09:38 INFO  [Twitter Stream consumer-1[initializing]] twitter4j.TwitterStreamImpl - Establishing connection.
+2022-01-03 15:09:38 INFO  [main] c.m.s.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-01-03 15:09:39 INFO  [Twitter Stream consumer-1[Establishing connection]] twitter4j.TwitterStreamImpl - Connection established.
+2022-01-03 15:09:39 INFO  [Twitter Stream consumer-1[Establishing connection]] twitter4j.TwitterStreamImpl - Receiving status stream.
+2022-01-03 15:09:39 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Same as in Hamilton
+2022-01-03 15:09:39 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @YardleyShooting: If this is still going on by the spring, we'll know something is up. It can't be denied. This is all so bloody suspici…
+2022-01-03 15:09:39 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @CaitlynxVi: ✧ ೃ✩.　 　Sevika and Silco →   incorrect　 　quotes
+
+Sevika: *wears a slightly lighter shade of black*
+Silco : i see you have y…
+2022-01-03 15:09:40 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Just posted a photo @ Spring Valley, Nevada https://t.co/NEpy4l7iCx
+2022-01-03 15:09:41 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @KetinaSquire Ah - from last years Spring "Ted Bundy" collection I see.
+2022-01-03 15:09:41 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @hxhassan: “Seventeen Moments of Spring” is a hugely successful, early 1970s Soviet television series whose hero bears more than a passi…
+2022-01-03 15:09:42 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text #BTC spring around these levels is going to be good. For the uptrend.
+However we won't get it that fast/easy 
+(Probably)
+2022-01-03 15:09:43 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @1DGAlNS @stillgoIden I'm 18 exactly turning 19 in spring
+2022-01-03 15:09:43 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Doxyaxone: Machine Learning Algorithms. #Python #BigData #Analytics #AI #DataScience #IoT #IIoT #Azure #PyTorch #Cython #RStats #DotNet…
+2022-01-03 15:09:43 INFO  [Twitter4J Async Dispatcher[0]] c.m.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @wolfiefendi: Alexander McQueen Spring 2006 collection https://t.co/CRuKFaNIV5

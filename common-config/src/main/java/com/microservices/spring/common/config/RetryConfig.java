@@ -12,8 +12,8 @@ public class RetryConfig {
 
     private final RetryConfigData retryConfigData;
 
-    public RetryConfig(RetryConfigData retryConfigData) {
-        this.retryConfigData = retryConfigData;
+    public RetryConfig(RetryConfigData configData) {
+        this.retryConfigData = configData;
     }
 
     @Bean
