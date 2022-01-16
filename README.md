@@ -11,4 +11,5 @@ Steps to run docker compose:
 
 1. make sure the containers are up and running
 2. run: `kafkacat -L -b localhost:19092` OR run: `docker run -it --network=host confluentinc/cp-kafkacat kafkacat -L -b localhost:19092`
+    - Note that on MacoS if you've installed `kafkacat` through brew, you'll be using `kcat` instead of `kafkacat` as the command
 3. more info about the *confluentinc/cp-kafka* docker image: https://hub.docker.com/r/confluentinc/cp-kafka
