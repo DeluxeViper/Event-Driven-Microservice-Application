@@ -34,3 +34,5 @@ build/
 
 *.properties
 /docker-compose/docker-logs/
+/docker-compose/docker-logs/twitter-to-kafka-service.log
+*.log
