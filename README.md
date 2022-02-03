@@ -25,3 +25,7 @@ Steps to run docker compose:
 ## Maven Commands
 
 Note: Before running any `mvn install` commands make sure to have a local kafka cluster running or else tests will fail (since the tests check whether any kafka instances are running). Alternatively you can use `mvn install -DskipTests` option.
+
+## Credits
+
+A very grateful thank you to Ali Gelenler who put a course together that went through the creation of the application I've used as a template for this code. Note that this application will not be the same as the application created in the "Master event-driven microservices architecture with patterns using Spring boot, Spring cloud, Kafka and Elasticsearch" course, I will add on to it.
