@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: kafka-to-elastic-service
+  profiles:
+    active: kafka_to_elastic
+  config:
+    import: 'configserver:'
+  cloud:
+    config:
+      name: kafka-to-elastic-service,config-client
+      username: spring_cloud_user
+      password: '{cipher}843ad0c95f4325968061f92482397e68582bb45f5256e31010612f630c6703a954a4fd2b8084b47ddaa8bc61c6d11a0b'
