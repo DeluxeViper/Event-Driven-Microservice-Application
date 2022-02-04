@@ -18,6 +18,7 @@
         <module>kafka-admin</module>
         <!-- Use spring-kafka to write Kafka producer implementation -->
         <module>kafka-producer</module>
+        <module>kafka-consumer</module>
     </modules>
 
 

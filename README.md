@@ -28,4 +28,4 @@ Note: Before running any `mvn install` commands make sure to have a local kafka 
 
 ## Credits
 
-A very grateful thank you to Ali Gelenler who put a course together that went through the creation of the application I've used as a template for this code. Note that this application will not be the same as the application created in the "Master event-driven microservices architecture with patterns using Spring boot, Spring cloud, Kafka and Elasticsearch" course, I will add on to it.
+A very grateful thank you to Ali Gelenler who put this course together that went through the creation of the application I've used as a template for this code. Note that this application will not be the same as the application created in the "Master event-driven microservices architecture with patterns using Spring boot, Spring cloud, Kafka and Elasticsearch" course, I'm hoping to add on to it.
