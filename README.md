@@ -24,7 +24,7 @@ Steps to run docker compose:
 
 ## Maven Commands
 
-Note: Before running any `mvn install` commands make sure to have a local kafka cluster running or else tests will fail (since the tests check whether any kafka instances are running). Alternatively you can use `mvn install -DskipTests` option.
+Note: Before running any `mvn install` or `mvn clean install` commands make sure to have a local kafka cluster running or else tests will fail (since the tests check whether any kafka instances are running). Alternatively you can use `mvn install -DskipTests` option.
 
 ## Credits
 

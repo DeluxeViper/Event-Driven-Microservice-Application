@@ -1,6 +1,7 @@
 package com.microservices.spring.config;
 
 import lombok.Data;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 
@@ -10,7 +11,10 @@ import org.springframework.context.annotation.Configuration;
 public class KafkaConsumerConfigData {
     private String keyDeserializer;
     private String valueDeserializer;
+
+    @Value("${kafka-consumer-config.consumer-group-id}")
     private String consumerGroupId;
+
     private String autoOffsetReset;
     private String specificAvroReaderKey;
     private String specificAvroReader;
