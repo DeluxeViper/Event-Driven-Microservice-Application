@@ -217,6 +217,18 @@
                 <artifactId>elastic-model</artifactId>
                 <version>${project.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>com.deluxeviper.microservices</groupId>
+                <artifactId>elastic-config</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.deluxeviper.microservices</groupId>
+                <artifactId>elastic-index-client</artifactId>
+                <version>${project.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
